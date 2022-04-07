@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $1 = generate ]; then 
-echo $RANDOM | md5sum | head -c 20; echo;
+openssl rand -base64 $2
 fi
 
 if [ $1 = --help ]; then
@@ -10,7 +10,7 @@ fi
 
 
 if [ $1 = store ]; then
-echo $RANDOM | md5sum > passwords/$2.txt
+openssl rand -base64 $3 > passwords/$2.txt
 
 fi
 
