@@ -10,15 +10,15 @@ fi
 
 
 if [ $1 = store ]; then
-echo $RANDOM | md5sum > passwords.txt
+echo $RANDOM | md5sum > passwords.txt && echo $2 > passwords.txt
 
 fi
 
 if [ $1 = add ]; then
-echo $2 > passwords.txt
+echo $2 > passwords.txt && echo $3 > passwords.txt
 fi
 
 if [ $1 = --read ]; then
-echo "TESTING TESTING 123"
+grep $2 passwords.txt
 fi
 
