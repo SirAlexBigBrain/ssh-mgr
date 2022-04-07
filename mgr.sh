@@ -9,7 +9,7 @@ echo "THIS CODE WORKS"
 fi
 
 
-if [ $1 = store]; then
+if [ $1 = store ]; then
 echo "THIS CODE WORKS"
 fi
 
