@@ -5,7 +5,7 @@ openssl rand -base64 $2
 fi
 
 if [ $1 = --help ]; then
-echo "THIS CODE WORKS"
+echo "JUST LOOK AT THE CODE U LAZY ID10T!!!!!!!!!!!!"
 fi
 
 
