@@ -10,7 +10,7 @@ fi
 
 
 if [ $1 = store ]; then
-echo $RANDOM | md5sum | head -c 20; echo; > passwords.txt
+echo $RANDOM | md5sum > passwords.txt
 
 fi
 
