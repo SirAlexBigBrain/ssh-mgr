@@ -5,7 +5,7 @@ echo $RANDOM | md5sum | head -c 20; echo;
 fi
 
 if [ $1 = --help ]; then
-echo ""
+echo "THIS CODE WORKS"
 fi
 
 
