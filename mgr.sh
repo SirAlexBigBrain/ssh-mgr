@@ -10,11 +10,14 @@ fi
 
 
 if [ $1 = store]; then
+echo "THIS CODE WORKS"
 fi
 
 if [ $1 = add ]; then
+echo "THIS CODE WORKS"
 fi
 
 if [ $1 = --read ]; then
+echo "THIS CODE WORKS"
 fi
 
