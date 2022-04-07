@@ -19,7 +19,7 @@ if [ $1 = add ]; then
 fi
 
 if [ $1 = --read ]; then
-if
+fi
 
 if [ $1 = "-r" ]; then
 echo "Ur code works and u are not an id10+"
