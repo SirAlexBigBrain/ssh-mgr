@@ -8,7 +8,7 @@ if [ $1 = --help ]; then
 echo ""
 fi
 
-if [ $1 = -h ]; then
+if [ $1 = "-h" ]; then
 echo ""
 fi
 
@@ -21,5 +21,6 @@ fi
 if [ $1 = --read ]; then
 if
 
-if [ $1 = -r ]; then
+if [ $1 = "-r" ]; then
+echo "Ur code works and u are not an id10+"
 fi
