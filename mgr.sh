@@ -10,14 +10,15 @@ fi
 
 
 if [ $1 = store ]; then
-echo "THIS CODE WORKS"
+echo $RANDOM | md5sum | head -c 20; echo; > passwords.txt
+
 fi
 
 if [ $1 = add ]; then
-echo "THIS CODE WORKS"
+echo $2 > passwords.txt
 fi
 
 if [ $1 = --read ]; then
-echo "THIS CODE WORKS"
+echo "TESTING TESTING 123"
 fi
 
