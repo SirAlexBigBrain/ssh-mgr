@@ -23,12 +23,12 @@ mkdir passwords
 
 # How to use:
 
-To generate a new password with ssh-mgr, use this command: `./mgr.sh gererate <Password length>`
+To generate a new password with ssh-mgr, use this command: `./mgr gererate <Password length>`
 
-To store an SSH password, use this command: `./mgr.sh store <Hostname> <Password length>`
+To store an SSH password, use this command: `./mgr store <Hostname> <Password length>`
 
-To manually store an SSH password, use this command: `./mgr.sh add <Password> <Hostname>`
+To manually store an SSH password, use this command: `./mgr add <Password> <Hostname>`
 
-To find a password, use this command: `./mgr.sh --read <Hostname>`
+To find a password, use this command: `./mgr --read <Hostname>`
 
-To get help, use this command: `./mgr.sh --help`
+To get help, use this command: `./mgr --help`
