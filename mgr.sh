@@ -10,15 +10,28 @@ fi
 
 
 if [ $1 = store ]; then
-openssl rand -base64 $3 > passwords/$2.txt
+openssl rand -base64 $3 > ~/passwords/$2.txt
 
 fi
 
 if [ $1 = add ]; then
-echo $2 > passwords/$3.txt
+echo $2 > ~/passwords/$3.txt
 fi
 
 if [ $1 = --read ]; then
 cat passwords/$2.txt
 fi
 
+
+if [ $1 = connect ]: then
+echo "Login with the provided password:"
+
+cat ~/passwords/$3.txt
+
+ssh $2@$3
+
+fi
+
+if [ $1 = remove ]; then
+rm -rf ~/passwords/$2
+fi
