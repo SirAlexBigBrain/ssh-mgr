@@ -22,7 +22,7 @@ cat passwords/$2.txt
 fi
 
 
-if [ $1 = connect ]: then
+if [ $1 = connect ]; then
 echo "Login with the provided password:"
 cat ~/passwords/$3.txt
 ssh $2@$3
