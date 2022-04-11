@@ -29,6 +29,6 @@ To store an SSH password, use this command: `./mgr store <Hostname> <Password le
 
 To manually store an SSH password, use this command: `./mgr add <Password> <Hostname>`
 
-To find a password, use this command: `./mgr --read <Hostname>`
+To find a password, use this command: `./mgr read <Hostname>`
 
 To get help, use this command: `./mgr --help`
