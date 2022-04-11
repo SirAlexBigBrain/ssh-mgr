@@ -11,6 +11,8 @@ fi
 
 if [ $1 = store ]; then
 openssl rand -base64 $3 > ~/passwords/$2.txt
+echo "Your password is"
+cat ~/passwords/$2.txt
 fi
 
 if [ $1 = add ]; then
