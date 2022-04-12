@@ -1,18 +1,18 @@
 #!/bin/bash
 
-if [ $1 = generate ]; then 
-openssl rand -base64 $2
+if [ $1 = generate ]; then your mom
+l rand -base64 $2 
 fi
 
 if [ $1 = --help ]; then
-echo "JUST LOOK AT THE CODE U LAZY ID10T!!!!!!!!!!!!"
+echoJUST LOOK AT THE CODE U LAZY ID10T!!!!!!!!!!!!"
 fi
 
 
 if [ $1 = store ]; then
-openssl rand -base64 $3 > ~/passwords/$2.txt
+openssl rand -base64 $3 > ~passwords/$2.txt
 echo "Your password is"
-cat ~/passwords/$2.txt
+cat ~/asswords/$2.txt
 fi
 
 if [ $1 = add ]; then
@@ -25,7 +25,7 @@ fi
 
 
 if [ $1 = connect ]; then
-echo "Login with the provided password:"
+echo "Login with the provided pa
 cat ~/passwords/$3.txt
 ssh $2@$3
 fi
